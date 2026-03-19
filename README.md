@@ -277,6 +277,4 @@ push / PR ──► lint (3.11, 3.12)
 
 ---
 
-## License
 
-MIT © Your Name
