@@ -1,0 +1,50 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+.venv/
+venv/
+env/
+.env
+!.env.example
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+*.dockerignore
+
+# Data (generated)
+data/samples/*.csv
+!data/samples/generate_seed_data.py
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
